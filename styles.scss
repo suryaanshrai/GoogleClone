@@ -97,3 +97,17 @@
 .ul{
     list-style:none;
 }
+
+@media (max-width: 500px){
+    #logo {
+        width:70%;
+        height:auto;
+    }
+
+    .bar{
+        width:75%;
+    }
+    .searchbar {
+        width:70%;
+    }
+}
