@@ -99,7 +99,7 @@
 
 #adv_title {
   color: #D93025;
-  display: flex;
+  display: block;
   font-family: arial;
   font-size: 20px;
   margin-left: 1cm;
@@ -130,6 +130,9 @@
     grid-template-columns: 90%; }
 
   #adv_title {
-    background-color: #eeeeee; } }
+    background-color: #eeeeee; }
+
+  #small_logo {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

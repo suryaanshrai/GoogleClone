@@ -115,7 +115,7 @@
 
 #adv_title{
     color:#D93025;
-    display:flex;
+    display:block;
     font-family:arial;
     font-size:20px;
     margin-left:1cm;
@@ -157,7 +157,7 @@
         background-color: #eeeeee
     }
 
-    #small-logo{
-        
+    #small_logo{
+        display:none;
     }
 }
