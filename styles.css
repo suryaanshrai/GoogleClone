@@ -105,10 +105,17 @@
   border-radius: 2px; }
 
 .adv_input:focus {
-  outline: 1px solid #000099; }
+  outline: 1px solid #0096FF; }
 
 .desc {
   color: #555555;
   font: 11px arial,sans-serif; }
+
+@media (max-width: 1070px) {
+  .desc {
+    display: none; }
+
+  .adv_grid {
+    grid-template-columns: 30% 40%; } }
 
 /*# sourceMappingURL=styles.css.map */
