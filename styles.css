@@ -1,23 +1,95 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scaa
+.bar {
+  border: 1px solid #D3D3D3;
+  border-radius: 20px;
+  height: 1cm;
+  margin: .5cm;
+  opacity: 100%;
+  text-align: left;
+  width: 15cm; }
 
-Backtrace:
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `read'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/usr/local/lib/ruby/gems/3.1.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:25:in `load'
-/usr/local/bin/sass:25:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - styles.scaa"; }
+.bar:hover {
+  box-shadow: .5px .5px 2px 2px #D3D3D3; }
+
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  box-shadow: 100px;
+  font-family: arial;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none; }
+
+.button:hover {
+  outline: 1.5px solid lightgray; }
+
+.buttonBlue {
+  border: none;
+  background: #4D90FE;
+  border-radius: 3px;
+  color: white;
+  height: 30px;
+  padding: 0px 12px; }
+
+.buttonBlue:hover {
+  background: #3079ed; }
+
+.link {
+  font-family: arial,san-serif;
+  font-size: 13px;
+  text-align: right;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 10px; }
+
+.link:hover {
+  text-decoration: underline; }
+
+#logo {
+  padding: .75cm;
+  margin-top: 1in; }
+
+.searchbar {
+  border: none;
+  color: black;
+  font-size: 18px;
+  height: .75cm;
+  margin-left: .35cm;
+  opacity: 100%;
+  width: 12.5cm; }
+
+.searchbar:focus {
+  border: none;
+  outline: none; }
+
+#searchButton {
+  border: none;
+  background-color: white; }
+
+#searchButton:hover {
+  cursor: pointer; }
+
+.text {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin: 1cm; }
+
+.top {
+  margin-top: 10px;
+  text-align: right; }
+
+.ul {
+  list-style: none; }
+
+@media (max-width: 500px) {
+  #logo {
+    width: 70%;
+    height: auto; }
+
+  .bar {
+    width: 75%; }
+
+  .searchbar {
+    width: 65%; } }
+
+/*# sourceMappingURL=styles.css.map */
