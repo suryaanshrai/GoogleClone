@@ -1,43 +1,35 @@
 <!DOCTYPE html>
     <head>
         <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, intital-scale=1.0">
         <title>Advanced Search</title>
     </head>
     <body>
         <div class="top">
             <a class="link" href="index.html">Search</a>
-            <a class="link" href="img.html">Image search</a>
+            <a class="link" href="image.html">Image search</a>
         </div>
         <img class="smallLogo" src="resources/google_logo.png" style="margin-left:.5cm; width:2cm;">
         <hr style="outline:none;border:none;margin-bottom:1cm">
         <span style="color:#D93025;font-family:arial; font-size:20px; margin-left:1cm;">Advanced Search</span>
         <hr style="color:#D3D3D3;margin-top:.5cm;opacity:25%;">
         <div class="text">
-            <div class="advIn">
-                <div class="col">Find pages with...</div>
-                <div class="as_st_h">To do this in the search box</div>
-            </div>
+            <p style="display:inline-block">Find pages with</p>
             <br>
             <!--as_q=apple&as_epq=banana&as_oq=strawberry&as_eq=pinata-->
-            <form action="https://www.google.co.in/search"
-            <div class="inputText">
+            <form action="https://www.google.co.in/search">
                 <ul>
-                    <div class="advin">
-                        <div class="col"><li>all these words:</li> <input name="as_q" type="text"></div>
-                        <div class="as_st">Type the important words: tri-colour rat terrier</div>
-                        <div class="col"><li>this exact word or phrase:</li> <input name="as_epq" type="text"></div>
-                        <div class="as_st">Put exact words in quotes: "rat terrier"</div>
-                        <div class="col"><li>any of these words:</li> <input name="as_oq" type="text"></div>
-                        <div class="as_st">Type OR between all the words you want: miniature OR standard</div>
-                        <div class="col"><li>none of these words:</li> <input name="as_eq" type="text"></div>
-                        <div class="as_st">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
-                    </div>
+                    <li><input autocomplete="off" name="as_q" type="text"></li>
+                    <li><input autocomplete="off" name="as_epq" type="text"></li>
+                    <li><input autocomplete="off" name="as_oq" type="text"></li>
+                    <li><input autocomplete="off" name="as_eq" type="text"></li>
                 </ul>
                 <br>
                 <center>
                     <button class="buttonBlue" type="submit">Advanced Search</button>
                 </center>
             </div>
+            </form>
         </div>
     </body>
 </html>
