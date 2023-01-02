@@ -81,30 +81,6 @@
 .ul {
   list-style: none; }
 
-.adv_grid {
-  display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
-  grid-template-columns: 15% 40% 20%;
-  margin: 1cm;
-  font: 13px arial,sans-serif; }
-
-.adv_input {
-  height: .6cm;
-  border: 1px solid #bbbbbb;
-  border-radius: 2px; }
-
-.adv_input:focus {
-  outline: 1px solid #0096FF; }
-
-#adv_title {
-  color: #D93025;
-  display: block;
-  font-family: arial;
-  font-size: 20px;
-  margin-left: 1cm;
-  padding: .3cm; }
-
 .desc {
   color: #555555;
   font: 11px arial,sans-serif; }
@@ -120,8 +96,21 @@
     width: 70%;
     height: auto; }
 
+  .adv_info {
+    margin: 0%; }
+
+  .adv_grid {
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+
+  .adv_input {
+    margin-bottom: 5px; }
+
   .bar {
     width: 75%; }
+
+  #blank_text {
+    display: none; }
 
   .searchbar {
     width: 65%; }
