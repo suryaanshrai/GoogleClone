@@ -120,6 +120,11 @@
 .adv_input{
     height: .6cm;
     border: 1px solid #bbbbbb;
+    border-radius: 2px;
+}
+
+.adv_input:focus{
+    border: 1px solid red;
 }
 
 .desc{
