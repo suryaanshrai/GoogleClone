@@ -97,6 +97,13 @@
 .adv_input:focus {
   outline: 1px solid #0096FF; }
 
+#adv_title {
+  color: #D93025;
+  display: block;
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 1cm; }
+
 .desc {
   color: #555555;
   font: 11px arial,sans-serif; }
@@ -119,6 +126,9 @@
     width: 65%; }
 
   .adv_grid {
-    grid-template-columns: 90%; } }
+    grid-template-columns: 90%; }
+
+  #adv_title {
+    background-color: #eeeeee; } }
 
 /*# sourceMappingURL=styles.css.map */
