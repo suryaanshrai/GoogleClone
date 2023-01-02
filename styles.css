@@ -56,7 +56,8 @@
   padding: 0px 12px; }
 
 .buttonBlue:hover {
-  background: #3079ed; }
+  background: #3079ed;
+  outline: 1px solid blue; }
 
 .desc {
   color: #555555;
