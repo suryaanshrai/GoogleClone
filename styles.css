@@ -81,19 +81,6 @@
 .ul {
   list-style: none; }
 
-@media (max-width: 500px) {
-  #logo {
-    width: 70%;
-    height: auto; }
-
-  .bar {
-    width: 75%; }
-
-  .searchbar {
-    width: 65%; }
-
-  .adv_grid {
-    grid-template-columns: 70%; } }
 .adv_grid {
   display: grid;
   grid-column-gap: 10px;
@@ -120,5 +107,18 @@
 
   .adv_grid {
     grid-template-columns: 30% 40%; } }
+@media (max-width: 500px) {
+  #logo {
+    width: 70%;
+    height: auto; }
+
+  .bar {
+    width: 75%; }
+
+  .searchbar {
+    width: 65%; }
+
+  .adv_grid {
+    grid-template-columns: 70%; } }
 
 /*# sourceMappingURL=styles.css.map */
