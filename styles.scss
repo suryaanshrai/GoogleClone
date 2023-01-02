@@ -109,5 +109,10 @@
 
 .adv_grid{
     display:grid;
-    grid-template-columns:30% 40% 30%;
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    grid-template-columns:15% 40% 20%;
+    margin:1cm;
+
+    font:13px arial,sans-serif;
 }
