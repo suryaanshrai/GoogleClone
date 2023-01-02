@@ -105,7 +105,7 @@
   border-radius: 2px; }
 
 .adv_input:focus {
-  border: 1px solid red; }
+  outline: 1px solid blue; }
 
 .desc {
   color: #555555;
