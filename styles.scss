@@ -109,12 +109,17 @@
 
 .adv_grid{
     display:grid;
-    grid-column-gap:20px;
-    grid-row-gap:20px;
+    grid-column-gap:10px;
+    grid-row-gap:15px;
     grid-template-columns:15% 40% 20%;
     margin:1cm;
 
     font:13px arial,sans-serif;
+}
+
+.adv_input{
+    height: .6cm;
+
 }
 
 .desc{
