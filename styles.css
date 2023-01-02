@@ -130,7 +130,8 @@
     grid-template-columns: 90%; }
 
   #adv_title {
-    background-color: #eeeeee; }
+    background-color: #eeeeee;
+    margin: 0%; }
 
   #small_logo {
     display: none; } }
