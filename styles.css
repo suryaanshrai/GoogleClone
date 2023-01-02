@@ -100,7 +100,8 @@
   font: 13px arial,sans-serif; }
 
 .adv_input {
-  height: .6cm; }
+  height: .6cm;
+  border: 1px solid; }
 
 .desc {
   color: #555555;
